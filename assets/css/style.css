@@ -160,35 +160,36 @@ a:active {
 /* ======================= */
 
 .big-work {
-    background-image: url(/assets/images/Illustration3hhhgdd.png);
+    background-image: url("../../assets/images/Illustration3hhhgdd.png");
+    background-image: image();
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 
 .work-1 {
-    background-image: url(/assets/images/Illustration12.png);
+    background-image: url("../../assets/images/Illustration12.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 
 .work-2 {
-    background-image: url(/assets/images/Illustration.png);
+    background-image: url("../../assets/images/Illustration.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 
 .work-3 {
-    background-image: url(/assets/images/moped.png);
+    background-image: url("../../assets/images/moped.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 
 .work-4 {
-    background-image: url(/assets/images/beetle.png);
+    background-image: url("../../assets/images/beetle.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
