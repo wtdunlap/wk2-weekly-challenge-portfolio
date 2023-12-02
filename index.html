@@ -9,6 +9,9 @@
 </head>
 
 <body>
+    <!-- Header section without <header> because it breaks the layout -->
+    <!-- Header section grouping all header elements together for     -->
+    <!-- background gradient -->
     <section id="header-section">
         <section class="header-group">
             <div id="top-left-header">Wesley Dunlap</div>
@@ -25,37 +28,46 @@
         <div id="bottom-right-header">ʕ·ᴥʔ (✪㉨✪) ʕᴥ·ʔ</div>
         </div>
     </section>
+    <!-- About me section starts here -->
     <div class="about-me">
         <p id="about-me">
             You're dealing with a coding bear. You got a problem? Check out my cats. Maybe get in contact with me?
         </p>
         <img class="about-me-img" src="./assets/images/bear-avatar.png">
     </div>
+
+
+    <!-- this section houses all the work cards -->
     <section class="flexContainer" id="work">
+        <!-- big work card -->
         <a href="./sketchy-pad/index.html" class="item">
             <div class="item big-work">
                 <h3>Sketchy Pad</h3>
                 <h4>Simple drawing program</h4>
             </div>
         </a>
+        <!-- smaller work cards from here down -->
         <a href="./on-a-branch/index.html" class="item">
             <div class="item work-1">
                 <h3>On a Branch</h3>
                 <h4>Simple game</h4>
             </div>
         </a>
+
         <a href="./7-11/index.html" class="item">
             <div class="item work-2">
                 <h3>7/11 Flavor Catalog</h3>
                 <h4>Track flavors</h4>
             </div>
         </a>
+
         <a href="./moped/index.html" class="item">
             <div class="item work-3">
                 <h3>Moped Racer</h3>
                 <h4>Simple game</h4>
             </div>
         </a>
+
         <a href="./bug-boy/index.html" class="item">
             <div class="item work-4">
                 <h3>Bug Collector</h3>
@@ -64,6 +76,9 @@
         </a>
     </section>
 
+
+    <!-- contact-me and feeter are bundled into one section -->
+    <!-- so a background gradient can be applied -->
     <section class="super-section-footer">
         <section class="contact-me" id="contact">
             <section class="contact-me-container">
@@ -77,12 +92,13 @@
                 </ul>
             </section>
         </section>
-
+        <!-- Footer but with the section element because <footer> breaks the layout -->
         <section class="feeter">
             <h5>Produced by Wesley Dunlap, </h5>
             <h6>all rights reserved</h6>
         </section>
     </section>
+
 </body>
 
 </html>
